@@ -1,0 +1,105 @@
+* {
+  font-family: "Roboto";
+}
+
+.about-section {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.about-section #about {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #283FA6;
+}
+.about-section h2 {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  margin: 20px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #F4F6F8;
+}
+.team h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  margin: 20px;
+}
+.team #we-are {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #283FA6;
+}
+
+.paragraph {
+  display: block;
+  max-width: 750px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px;
+}
+
+.photo-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #F4F6F8;
+}
+.photo-team h4 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.photo-team p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 150px 150px;
+  grid-template-areas: ". .";
+}
+#board img {
+  width: 240px;
+  height: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+#other-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-template-areas: ". . .";
+}
+#other-team img {
+  width: 150px;
+  height: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+/*# sourceMappingURL=about-style.css.map */

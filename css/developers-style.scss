@@ -1,0 +1,83 @@
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+
+//Light Theme
+$text: #ffffff;
+$light-600: #F4F6F8;
+
+//Banner
+
+.banner-page {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". .";
+}
+
+.banner-column {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 50px;
+
+}
+
+#banner-text {
+    color: $dark-700;
+    margin: 50px;
+}
+
+//Benefits
+
+.sub-title {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin: 40px;
+}
+
+.why-join,
+.hire-quality {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 580px;
+    color: $dark-700;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". .";
+}
+
+//Bottom Banner Section
+
+.button-banner{
+        width: 100%;
+        height: 300px;
+        color: $text;
+        background-color: $dark-400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h4{
+            text-align: center;
+            font-size: 32px;
+            line-height: 42px;
+            margin: 40px;
+        }
+
+}

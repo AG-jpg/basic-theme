@@ -1,0 +1,60 @@
+.banner-page {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 580px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-template-areas: ". .";
+}
+
+.banner-column {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 50px;
+}
+
+#banner-text {
+  color: #0E1117;
+  margin: 50px;
+}
+
+.sub-title {
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  margin: 40px;
+}
+
+.why-join,
+.hire-quality {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 580px;
+  color: #0E1117;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-template-areas: ". .";
+}
+
+.button-banner {
+  width: 100%;
+  height: 300px;
+  color: #ffffff;
+  background-color: #42464D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button-banner h4 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 40px;
+}
+
+/*# sourceMappingURL=developers-style.css.map */

@@ -1,0 +1,145 @@
+/*
+Theme Name: CodeSpread
+Author: Aldo Guzman
+Version: 1.0
+*/
+
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+
+//Light Theme
+$text: #ffffff;
+$light-600: #F4F6F8;
+
+// Banner Section
+.banner {
+    width: 100%;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://codespread-assets.s3.us-west-2.amazonaws.com/wordpress/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+//Video Section
+
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        margin: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 40px;
+    }
+
+
+
+    #youtube-video {
+        margin: 40px;
+    }
+}
+
+//How it Works Section
+
+#tech-screens {
+    width: 100%;
+    min-height: 510px;
+    background-image: url(https://codespread-assets.s3.us-west-2.amazonaws.com/wordpress/banner-screens-mobile.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#column-black{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $dark-600;
+}
+
+.how-works {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 580px;
+    color: $text;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". .";
+}
+
+// Partners Section
+
+#partners {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-track {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". . . .";
+}
+
+.partner-logo {
+    width: 230px;
+    height: 120px;
+}
+
+//Slider on Mobile
+
+.sliderMobile {
+    visibility: hidden;
+    height: 0px;
+}
+
+.slider-mobile {
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.bx-viewport,
+.bx-wrapper{
+    border: 0!important; /* border */
+    -webkit-box-shadow: none!important; /* these two shadows */
+    box-shadow: none!important;
+}

@@ -1,0 +1,40 @@
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+
+//Light Theme
+$text: #ffffff;
+$light-600: #F4F6F8;
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $dark-600;
+}
+
+.container-box {
+    width: 70%;
+    font-size: 16px;
+    line-height: 24px;
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+
+}

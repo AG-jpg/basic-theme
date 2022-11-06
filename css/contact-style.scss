@@ -1,0 +1,63 @@
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+$secondary-700: #283FA6;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+
+//Light Theme
+$text: #ffffff;
+$light-600: #F4F6F8;
+
+.contact-form {
+    min-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.15);
+
+    input,
+    textarea {
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+        color: $dark-400;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid $dark-700;
+    }
+
+    .contact-input {
+        padding-left: 20px;
+    }
+
+    .contact-input:focus {
+        border: 2px solid $primary-color;
+        color: $dark-700;
+        outline: none;
+    }
+
+    h4 {
+        margin: 10px;
+    }
+
+    #message {
+        min-height: 100px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+#contact-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

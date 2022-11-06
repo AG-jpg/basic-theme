@@ -1,0 +1,128 @@
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+$text: #ffffff;
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-700;
+    color: $text;
+
+    a,
+        a:visited {
+            text-decoration: none;
+            color: $text;
+        }
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". . . .";
+
+    h3 {
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    li {
+        list-style: none;
+        margin: 30px;
+
+    }
+}
+
+
+#social {
+
+    ul {
+        display: flex;
+        flex-direction: row;
+
+        li{
+            margin: 10px;
+        }
+
+        i{
+            font-size: 30px;
+        }
+    }
+
+}
+
+hr{
+    max-width: 1200px;
+    width: 90%;
+    color: $dark-400;
+}
+
+#r-brand{
+    color: $dark-300;
+}
+
+#forms{
+    display: flex;
+    flex-direction: column;
+
+    input,
+    textarea{
+        margin: 10px;
+        min-height: 50px;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .input{
+        padding-left: 10px;
+        background-color: transparent;
+        border: 1px solid $dark-300;
+        color: $dark-300;
+    }
+
+    .input:focus{
+        border: 2px solid $primary-color;
+        color: $text;
+        outline: none;
+    }
+
+    #message{
+        height: 100px;
+        padding-top: 20px;
+    }
+}
+
+#send,
+#send-footer{
+    background-color: $primary-color;
+    color: $dark-700;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+#send:active,
+#send-footer:active{
+    transform: translate(0px, 2px);
+}
+
+.legals{
+    text-align: right;
+}

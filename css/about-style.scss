@@ -1,0 +1,133 @@
+$primary-color: #FEDD01;
+$secondary-color: #3080EC;
+$secondary-700: #283FA6;
+
+//Dark Theme
+$dark-300: #ADB0BB;
+$dark-400: #42464D;
+$dark-500: #282C34;
+$dark-600: #1C2025;
+$dark-700: #0E1117;
+
+//Light Theme
+$text: #ffffff;
+$light-600: #F4F6F8;
+
+
+* {
+    font-family: 'Roboto'
+}
+
+.about-section {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+
+    #about {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        color: $secondary-700;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        margin: 20px;
+    }
+
+
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: $light-600;
+
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+        margin: 20px;
+    }
+
+    #we-are {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+        color: $secondary-700;
+    }
+
+}
+
+.paragraph {
+    display: block;
+    max-width: 750px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.photo-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: $light-600;
+
+    h4{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 150px 150px;
+    grid-template-areas:
+        ". .";
+
+        img{
+            width: 240px;
+            height: auto;
+            margin-right: 50px;
+            margin-left: 50px;
+            clip-path: circle(50% at 50% 50%);
+        }
+}
+
+#other-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". . .";
+
+        img{
+            width: 150px;
+            height: auto;
+            margin-right: 100px;
+            margin-left: 100px;
+            clip-path: circle(50% at 50% 50%);
+        }
+}
